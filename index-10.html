@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url("bckg.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body form {
+        position: absolute;
+        font-size: 150%;
+        left: 29%;
+        top: 20%;
+        background-color: #FFE3D8;
+        width: 40%;
+        height: 60%;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    form button {
+        width: 70px;
+        height: 30px;
+        background-color: #31112C;
+        color: blanchedalmond;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <form action="noaction.php">
+        <h1>LOGIN</h1>
+        <label for="Emailid">Email Id:</label>
+        <input type="text" name="Emailid" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter password" required>
+        <br><br>
+        <button type="submit" class="submit">Login In</button>
+    </form>
+</body>
+
+</html>

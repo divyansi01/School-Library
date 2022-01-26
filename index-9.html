@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url("bckg.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body h1 {
+        text-align: center;
+        font-family: 'Merienda', cursive;
+    }
+
+    body form {
+        background-color: #FE7E6D;
+        text-align: left;
+        width: 40%;
+        height: 350px;
+        position: absolute;
+        left: 29%;
+        top: 10%;
+        border-radius: 7px;
+    }
+
+    .submit {
+        position: absolute;
+        left: 170px;
+        width: 90px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    body input {
+        position: absolute;
+        left: 200px;
+    }
+
+    body label {
+        position: absolute;
+        left: 50px;
+    }
+</style>
+
+<body>
+    <form action="noaction.php">
+        <h1>Register</h1>
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" placeholder="Enter Name" required>
+        <br><br>
+        <label for="Telephone">Phone:</label>
+        <input type="Telephone" name="Telephone">
+        <br><br>
+        <label for="Emailid">Email Id:</label>
+        <input type="text" name="Emailid">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter password">
+        <br><br>
+        <label for="password">Confirm Password:</label>
+        <input type="password" name="password" placeholder="Confirm password">
+        <br><br>
+        <button type="submit" class="submit">Sign Up</button>
+    </form>
+</body>
+
+</html>
